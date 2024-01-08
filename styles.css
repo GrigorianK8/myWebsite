@@ -1,0 +1,400 @@
+body {
+    background-image: url("img/body.jpg");
+}
+/*INDEX*/
+#top-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -8px;
+}
+
+nav {
+    text-align: center;
+    margin-top: -9px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3ms;
+}
+
+#menu-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -20px;
+}
+
+#logo-slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}
+
+.outer-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.inner-img1 {
+    position: absolute;
+    top: 58%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-img2 {
+    position: absolute;
+    top: 58%;
+    right: 16%;
+    transform: translate(-50%, -50%);
+}
+
+.outer-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-img1,
+.inner-img2,
+.inner-img3,
+.inner-img4,
+.inner-img5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.inner-img1 {
+    top: 47%;
+    left: 16.5%;
+}
+
+.inner-img2 {
+    top: 47%;
+    right: 16.5%;
+}
+
+.inner-img3 {
+    top: 50%;
+    left: 19%;
+}
+
+.inner-img4 {
+    top: 50%;
+    display: flex;
+}
+
+.inner-img5 {
+    top: 50%;
+    left: 62%;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px;
+    margin-top: -130px;
+}
+
+.column {
+    text-align: left;
+    max-width: 200px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+#column-p1 {
+    text-decoration: underline;
+    color: green;
+}
+
+#column-p2 {
+    text-decoration: underline;
+    color: green;
+}
+
+.image-container {
+    position: relative;
+    margin-left: -20%;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#index-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -167px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    margin-right: 20px;
+}
+
+.text p {
+    margin: 2px;
+}
+/*INDEX*/
+
+/*ABOUT*/
+.about-columns {
+    display: flex;
+    margin-right: 29%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.column,
+.column-aboutMeText {
+    max-width: 200px;
+    text-align: center;
+}
+
+.column img,
+.column-aboutMeText img {
+    max-width: 100%;
+    height: auto;
+}
+
+#column-p2 p {
+    max-width: 400px;
+}
+
+.about-columns-2 {
+    display: flex;
+    margin-right: 14%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.ab-column-2,
+.ab-column-3 {
+    max-width: 300px;
+    text-align: left;
+    margin: 0 15px;
+}
+
+.ab-column-2 img,
+.ab-column-3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#column-p1,
+#column {
+    text-decoration: underline;
+    color: green;
+    margin-bottom: 10px;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -70px;
+}
+/*ABOUT*/
+
+/*PORTFOLIO*/
+.portfolio-columns {
+    display: flex;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.ptf-column img {
+    max-width: 50%;
+    height: auto;
+}
+
+.ptf-column p.my-text,
+.my-text2,
+.my-text3{
+    padding: 5px 25px;
+}
+
+.ptf-preview img {
+    width: 150%;
+    height: auto;
+    max-width: 150%;
+}
+
+.arrow-link {
+    margin-top: 5%;
+}
+
+#portfolio-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+/*PORTFOLIO*/
+
+/*SERVICES*/
+.services-columns {
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.column-srvText,
+.srv-img {
+    max-width: 400px;
+}
+
+.services-columns-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.srv-column {
+    text-align: left;
+    margin: 0 10px;
+}
+
+.column-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+#srv-column-p,
+#srv-column-p2,
+#srv-column-p3 {
+    max-width: 300px;
+    text-align: left;
+}
+
+#services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -30px;
+}
+
+#srv-column-p,
+#srv-column-p2,
+#srv-column-p3 {
+    text-decoration: underline;
+    color: green;
+}
+/*SERVICES*/
+
+/*CONTACT*/
+.contact-columns {
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-row {
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.contact-name {
+    margin-top: -31%;
+}
+
+.contact-e-mail {
+    margin-top: -31%;
+}
+
+.contact-website {
+    margin-top: -31%;
+}
+
+.input-container img {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.send-message {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-top: -48px;
+    margin-left: 60%;
+}
+
+#contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: -30px;
+}
+/*CONTACT*/
